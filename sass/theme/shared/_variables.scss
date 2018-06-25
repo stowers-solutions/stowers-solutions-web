@@ -1,0 +1,6 @@
+$large-screen: 53.75em !default;
+$large-screen-grid: (
+	columns: 12,
+    gutter: 50px,
+    media: $large-screen,
+);

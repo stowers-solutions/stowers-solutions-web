@@ -1,0 +1,14 @@
+section-wrapper {
+	display: flex;
+	background: #f6f6f6;
+}
+
+section {
+	max-width: 1200px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+}

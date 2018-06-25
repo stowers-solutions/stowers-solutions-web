@@ -1,0 +1,33 @@
+.hero {
+  align-items: center;
+  background: url("../images/hero-bg.jpeg");
+  background-position: right;
+  background-size: none;
+  display: flex;
+  justify-content: center;
+  min-height: 25em;
+  padding: 2em;
+
+  @include grid-media($large-screen-grid) {
+    background-position: left;
+    background-size: cover;
+    justify-content: center;
+  }
+
+  .hero-content {
+    max-width: 38em;
+    text-align: center;
+
+    h1 {
+      font-size: 3em;
+    }
+
+    @include grid-media($large-screen-grid) {
+      text-align: left;
+    }
+  }
+
+  .hero-logo {
+    margin: auto;
+  }
+}
